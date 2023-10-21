@@ -1,0 +1,16 @@
+.home {
+    @include flexLeftC;
+    justify-content: flex-start;
+}
+
+.home-container {
+    @include pageH1P14;
+    padding: $size-44 $size-32;
+    width: 100%;
+    // top-bottom logo + size logo
+    margin-top: calc(2rem + 1.875rem) ;
+}
+
+.home-container .button {
+    margin-top: $size-24;
+}

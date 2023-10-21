@@ -1,0 +1,69 @@
+// --------------------------------------------------------------
+// Typography
+// --------------------------------------------------------------
+
+// Fonts
+$montserrat: 'Montserrat', sans-serif;
+
+// Font sizes
+$h1: 1.625rem;
+$p14: 0.875rem;
+$p12: 0.75rem;
+
+// Font weights
+$fw-regular: 400;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+
+// --------------------------------------------------------------
+// Colors
+// --------------------------------------------------------------
+
+// Primary color
+$primary-color-C: #FF7276;
+$primary-color-W: #FFFFFF;
+$primary-color-O: #FFB471;
+$primary-color-R: #CE474F;
+
+// Secondary color
+$secondary-color-W16: #FFFFFF29;
+$secondary-color-W60: #FFFFFF6E;
+$secondary-color-W80: #FFFFFF9C;
+
+// --------------------------------------------------------------
+// size
+// --------------------------------------------------------------
+
+$size-1: 0.0625rem;
+$size-2: 0.125rem;
+$size-8: 0.5rem;
+$size-12: 0.75rem;
+$size-16: 1rem;
+$size-20: 1.25rem;
+$size-24: 1.5rem;
+$size-32: 2rem;
+$size-44: 2.75rem;
+
+// --------------------------------------------------------------
+// Media queries
+// --------------------------------------------------------------
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    // ...
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    // ...
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    // ...
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    // ...
+}

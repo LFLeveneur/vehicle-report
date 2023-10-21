@@ -1,0 +1,26 @@
+.selected {
+    @include flexLeftR;
+    @include padding;
+    @include borderRadius;
+    background-color: $secondary-color-W16;
+    border: $size-2 solid $primary-color-W;
+    color: $primary-color-W;
+    font-size: $size-12;
+    font-weight: $fw-regular;
+    width: 100%;
+    cursor: pointer;
+}
+
+.selected > label {
+    cursor: pointer;
+    width: 100%;
+}
+
+.selected-active {
+    background-color: $primary-color-W;
+    color: $primary-color-C;
+}
+
+.selected>input {
+    display: none;
+}

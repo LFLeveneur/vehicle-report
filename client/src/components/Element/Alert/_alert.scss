@@ -1,0 +1,21 @@
+.alert {
+    @include flexLeftR;
+    @include padding;
+    @include borderRadius;
+    color: $primary-color-W;
+    width: 60vw;
+    position: absolute;
+    transform: translate($size-24, $size-12);
+}
+
+.alert-attention {background-color: $primary-color-O;}
+.alert-attention::after {
+    @include arrowAlert;
+    border-top: $size-12 solid $primary-color-O;
+}
+
+.alert-error {background-color: $primary-color-R;}
+.alert-error::after {
+    @include arrowAlert;
+    border-top: $size-12 solid $primary-color-R;
+}

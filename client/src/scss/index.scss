@@ -1,0 +1,23 @@
+// Config
+@import 'typography';
+@import 'variables';
+@import 'mixins';
+@import 'global';
+
+// Pages
+@import '../pages/form';
+
+// Components pages
+@import '../components/1.Home/home';
+@import '../components/2.Imatriculation/imatriculation';
+@import '../components/3.Picture/picture';
+@import '../components/4.Situation/situation';
+@import '../components/5.Thanks/thanks';
+
+// Components elements
+@import '../components/Element/Button/button';
+@import '../components/Element/ButtonDelete/buttonDelete';
+@import '../components/Element/Input/input';
+@import '../components/Element/Selected/selected';
+@import '../components/Element/Upload/upload';
+@import '../components/Element/Alert/alert';

@@ -1,0 +1,33 @@
+.upload > input {
+    display: none;
+}
+
+// Upload button
+.upload {
+    @include flexCenterC;
+    @include borderRadius;
+    padding: $size-24 $size-44;
+    gap: $size-24;
+    background-color: $secondary-color-W16;
+    border: $size-2 dashed $primary-color-W;
+    cursor: pointer;
+}
+
+.upload-text>p:first-child {
+    margin-bottom: $size-8;
+    font-weight: $fw-semi-bold;
+}
+
+// Picture preview
+.picture-preview {
+    @include flexCenterC;
+    cursor: pointer;
+}
+
+.picture-preview img {
+    width: 100%;
+    height: 100%;
+    max-height: 30vh;
+    border-radius: $size-8 $size-8 0 0;
+    object-fit: cover;
+}

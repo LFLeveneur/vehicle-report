@@ -1,0 +1,40 @@
+.buttonDelete {
+    @include flexLeftR;
+    @include padding;
+    border-radius: 0 0 $size-8 $size-8;
+    justify-content: space-between;
+    background-color: $primary-color-C;
+    color: $primary-color-W;
+    width: 100%;
+    font-size: $size-16;
+    font-weight: $fw-bold;
+    border: $size-1 solid $primary-color-W;
+    cursor: pointer;
+    position: relative;
+
+    span {
+        opacity: 0;
+    }
+}
+
+.buttonDeleteHover {
+    background-color: $secondary-color-W80;
+    border: $size-1 solid $secondary-color-W80;
+    color: $primary-color-C;
+    box-sizing: border-box;
+    
+    span {
+        @include flexCenterC;
+        @include padding;
+        border-radius: 0 0 $size-8 0;
+        opacity: 1;
+        position: absolute;
+        right: 0;
+        background-color: $primary-color-C;
+        color: $primary-color-W;
+        border: $size-1 solid $primary-color-W;
+        height: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+    transition: all 0.3s ease-in-out;
+}

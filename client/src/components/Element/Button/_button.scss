@@ -1,0 +1,21 @@
+.button {
+    @include flexCenterR;
+    @include padding;
+    @include borderRadius;
+    background-color: $primary-color-W;
+    color: $primary-color-C;
+    width: 100%;
+    font-size: $size-16;
+    font-weight: $fw-bold;
+    border: $size-1 solid $primary-color-W;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttonHover {
+    background-color: $primary-color-C;
+    color: $primary-color-W;
+    border: $size-2 solid $primary-color-W;
+    box-sizing: border-box;
+    margin: -$size-2;
+}

@@ -1,0 +1,116 @@
+// --------------------------------------------------------------
+// Flexbox
+// --------------------------------------------------------------
+
+@mixin flexCenterR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+@mixin flexLeftR {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+@mixin flexRightR {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+@mixin flexLeftC {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+@mixin flexCenterC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+// --------------------------------------------------------------
+// Colors
+// --------------------------------------------------------------
+
+@mixin colorsBC {
+    background-color: $primary-color-W;
+    color: $primary-color-C;
+}
+@mixin colorsBCReverseB {
+    background-color: $primary-color-C;
+    color: $primary-color-W;
+    border: $size-1 solid $primary-color-C;
+}
+
+// --------------------------------------------------------------
+// Elements
+// --------------------------------------------------------------
+
+@mixin padding {
+    padding: $size-12 $size-20;
+}
+@mixin borderRadius {
+    border-radius: $size-8;
+}
+
+
+@mixin borderDashed {
+    border: $size-1 dashed $primary-color-W;
+    border-radius: $size-8;
+    background-color: $secondary-color-W16;
+}
+
+// --------------------------------------------------------------
+// Fonts h1 p page
+// --------------------------------------------------------------
+
+@mixin pageH1P14 {
+    h1 {
+        font-size: $h1;
+        margin-bottom: $size-32;
+    }
+    
+    p {
+        font-size: $p14;
+    }
+}
+
+@mixin pageH1P12 {
+    .question {
+        font-size: $h1;
+        margin-bottom: $size-12;
+    }
+    
+    .remarque {
+        font-size: $p12;
+        margin-bottom: $size-32;
+    }
+
+    .button {
+        margin-top: $size-24;
+    }
+}
+
+// --------------------------------------------------------------
+// Alert
+// --------------------------------------------------------------
+
+@mixin arrowAlert {
+    content: '';
+    position: absolute;
+    top: -$size-12;
+    left: $size-12;
+    width: $size-12;
+    height: $size-12;
+    border-left: $size-12 solid transparent;
+    border-right: $size-12 solid transparent;
+    transform: rotate(180deg);
+}
